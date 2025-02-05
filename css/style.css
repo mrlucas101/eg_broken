@@ -60,15 +60,19 @@ header h1 {
   margin: 0 auto;
   padding: 0 auto;
   text-align: center;
-  
+  color: #600000;
 }
+header h1 .shadow-text {
+  text-shadow: 2px 2px 2px #8c4a4a;
+}
+
 .small {
   margin-top: 1em;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   font-size: 1em;
   text-transform: uppercase;
-  color:#600000;
+  color:#8e5b5b;
 }
 /*-- Article Styles--*/
 article {
