@@ -19,7 +19,7 @@ p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: #600000;
 }
 footer {
   text-align: center;
@@ -32,7 +32,7 @@ nav ul {
   justify-content: space-between;
   list-style: none;
   padding: 1em;
-  margin-top: -0.5em;
+  margin-top: -0.1em;
 }
 nav a:link, nav a:visited {
   color: #D0D0D0;
@@ -59,9 +59,16 @@ header img {
 header h1 {
   margin: 0 auto;
   padding: 0 auto;
+  text-align: center;
+  
 }
 .small {
   margin-top: 1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 1em;
+  text-transform: uppercase;
+  color:#600000;
 }
 /*-- Article Styles--*/
 article {
@@ -73,9 +80,13 @@ article {
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
+  float: right;
 }
 article figcaption {
-  font-size: inherit;
+  font-size: 75%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  text-align: center;
 }
 .pagination {
   margin-top: 2em;
