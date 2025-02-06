@@ -114,19 +114,21 @@ article figcaption {
   justify-content: space-around;
 }
 a.button {
-  border: 2px solid #600000;
+  border: 5px solid #600000;
+  border-style: double;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
   color: #600000;
-  border-radius: 200px;
+  border-radius: 25px;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 3px solid #444;
+  border: 5px solid #c16e6e;
+  border-style: double;
   text-decoration: none;
-  color: #222;
+  color: #965656;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
